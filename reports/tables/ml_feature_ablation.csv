@@ -1,0 +1,6 @@
+Features removed,n_features,Val RMSE,Val MAE,Val NSE,RMSE change vs full (%)
+none (full model),13,95.897,57.125,0.619,0.0
+discharge_memory,8,92.966,56.86,0.642,-3.056
+rainfall,9,98.815,58.545,0.595,3.043
+catchment_state,11,96.375,59.755,0.615,0.498
+seasonality,11,100.821,61.833,0.578,5.135

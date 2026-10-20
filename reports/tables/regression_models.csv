@@ -1,0 +1,4 @@
+model,n,R2,Adj R2,AIC,Durbin-Watson
+M1: contemporaneous,430,0.5043,0.5008,5190.8835,1.3629
+M2: + lagged rainfall,430,0.6561,0.652,5037.6701,1.5216
+M3: + seasonality (sin/cos),430,0.6685,0.663,5025.8094,1.5267
