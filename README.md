@@ -42,7 +42,7 @@ How does rainfall translate into river flow in this catchment, is the climate sh
 ## Dashboard
 
 ```bash
-streamlit run app/streamlit\\\\\\\_app.py
+streamlit run app/streamlit\\\\\\\\\\\\\\\_app.py
 ```
 
 ## Repository structure
@@ -62,7 +62,7 @@ reports/     Figures and result tables
 git clone <this-repo>
 cd <this-repo>
 python -m venv .venv
-.venv\\\\\\\\Scripts\\\\\\\\activate          # macOS/Linux: source .venv/bin/activate
+.venv\\\\\\\\\\\\\\\\Scripts\\\\\\\\\\\\\\\\activate          # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -75,7 +75,8 @@ Run the notebooks in order (`01` to `04`; `03` takes a few minutes), then the la
 * Reservoir releases and upstream rainfall are not in the data and plausibly explain part of the unexplained variance.
 * Large floods dominate RMSE; extreme-event (quantile / log-scale) models are a natural next step.
 * Forecast horizon is one month; multi-horizon forecasting is future work.
-* ## \## License
 
-## Code: \[MIT](LICENSE). Data: supplied by the course instructor; reuse subject to the instructor's terms.
+## License
+
+See the \[License](LICENSE) file. Data: supplied by the course instructor; reuse subject to the instructor's terms.
 
